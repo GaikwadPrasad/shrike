@@ -92,7 +92,9 @@ Start serial logging only if ```PSRAM``` is connected.
 sudo screen /dev/ttyACM0 115200  
 ```
 **Important:**
-In the above command, replace `/dev/ttyACM0` with the port of your connected device. If multiple ports are connected, open a new terminal window for each port. If no logs are displayed, press the **Reset** button on the Shrike-Fi board to restart the device. The logs will then be displayed from the beginning.
+* In the above command, replace `/dev/ttyACM0` with the port of your connected device. 
+* If multiple ports are connected, open a new terminal window for each port. 
+* If no logs are displayed, press the **Reset** button on the Shrike-Fi board to restart the device. The logs will then be displayed from the beginning.
 
 5. To exit the session, press `Ctrl + A`, then type `:quit`. Alternatively, you can disconnect the Shrike-Fi board's USB cable.
 
